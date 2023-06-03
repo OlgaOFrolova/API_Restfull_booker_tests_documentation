@@ -19,7 +19,7 @@
 
 
 
-*проверки валидации по полям firstname, lastname, chekin, chekout,  totalprice, depositpaid, additionalneeds
+* проверки валидации по полям firstname, lastname, chekin, chekout,  totalprice, depositpaid, additionalneeds
 
 # проверки полей firstname, lastname` 
 
