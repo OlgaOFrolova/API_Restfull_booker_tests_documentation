@@ -6,7 +6,7 @@
 В поле "totalprice" записывается «1»  при  вводе больших значений при создании нового пользователя
 	
 #### Шаги воспроизведения	
-1) отправляем запрос на создание нового пользователя по ссылке url = "https://restful-booker.herokuapp.com/booking/", с полем  "totalprice" равным 1000000000000000000000
+1) отправляем запрос на создание нового пользователя по ссылке url = "https://restful-booker.herokuapp.com/booking/" с полем  "totalprice" равным 1000000000000000000000
 
 ![](https://github.com/OlgaOFrolova/API_Restfull_booker_tests_documentation/blob/pictures_for_bugreports/11.jpg)
 
@@ -27,7 +27,7 @@
 В поле "totalprice" записываются отрицательные значения  при создании нового пользователя
 	
 #### Шаги воспроизведения	
-1) отправляем запрос на создание нового пользователя по ссылке url = "https://restful-booker.herokuapp.com/booking/", с полем  "totalprice" равным -99
+1) отправляем запрос на создание нового пользователя по ссылке url = "https://restful-booker.herokuapp.com/booking/" с полем  "totalprice" равным -99
 
 ![](https://github.com/OlgaOFrolova/API_Restfull_booker_tests_documentation/blob/pictures_for_bugreports/21.jpg)
 
@@ -48,7 +48,7 @@
 Система принимает поле "chekin" более поздней даты чем поле "chekout" при создании нового пользователя
 	
 #### Шаги воспроизведения	
-1) отправляем запрос на создание нового пользователя по ссылке url = "https://restful-booker.herokuapp.com/booking/", с полями "checkin": "2023-05-25", "checkout": "2020-03-20"
+1) отправляем запрос на создание нового пользователя по ссылке url = "https://restful-booker.herokuapp.com/booking/" с полями "checkin": "2023-05-25", "checkout": "2020-03-20"
 
 ![](https://github.com/OlgaOFrolova/API_Restfull_booker_tests_documentation/blob/pictures_for_bugreports/31.jpg)
 
@@ -69,7 +69,7 @@
 Система выдает некорректную дату по  полям "chekin" и "chekout" при вводе числа(положительного, отрицательного, дробного, нуля при создании нового пользователя
 	
 #### Шаги воспроизведения	
-1) отправляем запрос на создание нового пользователя по ссылке url = "https://restful-booker.herokuapp.com/booking/", с полем "checkin": 500, "checkout": "2020-03-20"
+1) отправляем запрос на создание нового пользователя по ссылке url = "https://restful-booker.herokuapp.com/booking/" с полем "checkin": 500, "checkout": "2020-03-20"
 
 ![](https://github.com/OlgaOFrolova/API_Restfull_booker_tests_documentation/blob/pictures_for_bugreports/41.jpg)
 
@@ -90,7 +90,7 @@
 Система принимает невалидные данные по  полям "chekin" и "chekout" при вводе пробела при создании нового пользователя
 	
 #### Шаги воспроизведения	
-1) 1 отправляем запрос на создание нового пользователя по ссылке url = "https://restful-booker.herokuapp.com/booking/", с полем "checkin":"  " , "checkout": "2020-03-20"
+1) 1 отправляем запрос на создание нового пользователя по ссылке url = "https://restful-booker.herokuapp.com/booking/" с полем "checkin":"  " , "checkout": "2020-03-20"
 
 ![](https://github.com/OlgaOFrolova/API_Restfull_booker_tests_documentation/blob/pictures_for_bugreports/51.jpg)
 
@@ -111,7 +111,7 @@
 Система принимает невалидные данные по  полям  "firstname" и "lastname" при вводе 0 при создании нового пользователя
 	
 #### Шаги воспроизведения	
-1) 1 отправляем запрос на создание нового пользователя по ссылке url = "https://restful-booker.herokuapp.com/booking/", с полем "firsname"= 0 
+1) 1 отправляем запрос на создание нового пользователя по ссылке url = "https://restful-booker.herokuapp.com/booking/" с полем "firsname"= 0 
 
 ![](https://github.com/OlgaOFrolova/API_Restfull_booker_tests_documentation/blob/pictures_for_bugreports/61.jpg)
 
